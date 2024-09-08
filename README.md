@@ -57,8 +57,44 @@
     </p>
 </body>
 
+
+
 <br>
 
 <hr width="100%" size="2">
 
-<br>
+<h3 align= "left"> <b>PetClinicDB Transformation Project</b> </h3>
+
+<body>
+    <p>The project involves transforming a pet clinic's data management from Excel to a MySQL database. The goal is to develop a robust data model using MySQL Workbench to efficiently manage customer, pet, visit, payment, procedure, doctor, and prescription information.</p>
+
+  <h2>Key Components</h2>
+    <ul>
+        <li><strong>Customer Management:</strong> Each customer is assigned a unique ID. Information such as email, name, date of birth, and city is stored in the <code>CUSTOMER</code> table.</li>
+        <li><strong>Pet Information:</strong> Each pet has a unique ID and attributes like name, date of birth, weight, and species. Pets are linked to their owners through the <code>CUSTOMER</code> table.</li>
+        <li><strong>Visits and Payments:</strong> Each pet visit is recorded with a unique visit ID, date, cost, and attending doctor. Payments related to visits are stored in the <code>PAYMENTS</code> table, which includes payment type, date, and amount.</li>
+        <li><strong>Procedures and Doctors:</strong> Each procedure has a unique ID and includes details like cost, type, and description. Doctors have unique IDs and can prescribe multiple medications.</li>
+        <li><strong>Prescriptions:</strong> Each prescription includes drug name, dosage, and cost, linked to the prescribing doctor.</li>
+    </ul>
+
+  <h2>Business Rules</h2>
+    <ul>
+        <li>No fields allow NULL values.</li>
+        <li>Payment types are restricted to 'cash', 'credit', or 'check'.</li>
+        <li>All cost fields must contain positive decimal values.</li>
+    </ul>
+
+   <h2>Data Model</h2>
+    <p>The data model includes:</p>
+    <ol>
+        <li><strong>Conceptual Design:</strong> Using Chen’s model to outline relationships.</li>
+        <li><strong>Logical Design:</strong> An ERD diagram to visualize table relationships.</li>
+        <li><strong>Physical Design:</strong> SQL scripts to create and manage the database schema.</li>
+    </ol>
+
+   <h2>ER Diagram</h2>
+    <img src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/ER%20DIAGRAM%20SS.png" alt="ER Diagram">
+
+   <h2>Chen Model</h2>
+    <img src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/CHEN%20MODEL%20SS.png" alt="Chen Model">
+</body>
