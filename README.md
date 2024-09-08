@@ -68,7 +68,7 @@
 <body>
     <p>The project involves transforming a pet clinic's data management from Excel to a MySQL database. The goal is to develop a robust data model using MySQL Workbench to efficiently manage customer, pet, visit, payment, procedure, doctor, and prescription information.</p>
 
-  <h2>Key Components</h2>
+  <h4>Key Components</h4>
     <ul>
         <li><strong>Customer Management:</strong> Each customer is assigned a unique ID. Information such as email, name, date of birth, and city is stored in the <code>CUSTOMER</code> table.</li>
         <li><strong>Pet Information:</strong> Each pet has a unique ID and attributes like name, date of birth, weight, and species. Pets are linked to their owners through the <code>CUSTOMER</code> table.</li>
@@ -77,14 +77,14 @@
         <li><strong>Prescriptions:</strong> Each prescription includes drug name, dosage, and cost, linked to the prescribing doctor.</li>
     </ul>
 
-  <h2>Business Rules</h2>
+  <h4>Business Rules</h4>
     <ul>
         <li>No fields allow NULL values.</li>
         <li>Payment types are restricted to 'cash', 'credit', or 'check'.</li>
         <li>All cost fields must contain positive decimal values.</li>
     </ul>
 
-   <h2>Data Model</h2>
+   <h4>Data Model</h4>
     <p>The data model includes:</p>
     <ol>
         <li><strong>Conceptual Design:</strong> Using Chen’s model to outline relationships.</li>
@@ -92,9 +92,9 @@
         <li><strong>Physical Design:</strong> SQL scripts to create and manage the database schema.</li>
     </ol>
 
-   <h2>ER Diagram</h2>
+   <h4>ER Diagram</h4>
     <img height="300" src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/ER%20DIAGRAM%20SS.png" alt="ER Diagram">
 
-   <h2>Chen Model</h2>
+   <h4>Chen Model</h4>
     <img height="300" src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/CHEN%20MODEL%20SS.png" alt="Chen Model">
 </body>
