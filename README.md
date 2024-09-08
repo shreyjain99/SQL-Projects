@@ -93,8 +93,8 @@
     </ol>
 
    <h2>ER Diagram</h2>
-    <img src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/ER%20DIAGRAM%20SS.png" alt="ER Diagram">
+    <img height="200" src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/ER%20DIAGRAM%20SS.png" alt="ER Diagram">
 
    <h2>Chen Model</h2>
-    <img src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/CHEN%20MODEL%20SS.png" alt="Chen Model">
+    <img height="200" src="https://github.com/shreyjain99/SQL-Projects/blob/main/PetClinicDB%20Transformation%20Project/CHEN%20MODEL%20SS.png" alt="Chen Model">
 </body>
