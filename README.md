@@ -6,12 +6,11 @@
 
 <hr width="100%" size="2">
 
-<h3 align= "left"> <b> Key Project Formulation </b> </h3>
+<h3 align= "left"> <b> GitHub Repository Overview </b> </h3>
 
 <br>
 
 <body>
-    <h1>GitHub Repository Overview</h1>
     <ul>
         <li><strong>Chicago Crime Analysis:</strong> A comprehensive project analyzing crime data in Chicago using SQL.</li>
         <li><strong>PetclinicDB Transformation Project:</strong> A project focused on transforming the PetclinicDB database.</li>
