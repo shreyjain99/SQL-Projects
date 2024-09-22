@@ -1,4 +1,4 @@
-<h2 align= "Left"><em>SQL-Projects Repo Summary</em></h2>
+<h2 align= "Left"><em>SQL-Projects Repository Summary</em></h2>
 
 <div align="center">
   <img height="200" src="https://github.com/shreyjain99/SQL-Projects/blob/main/src%20files/cover%20photo.png"/>
